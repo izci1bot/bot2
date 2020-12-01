@@ -1,12 +1,6 @@
 from telebot import TeleBot
-from bs4 import BeautifulSoup
-import requests
 
-
-bot = TeleBot("1229478827:AAHKwARIFOP-G5iMf_rDUXyPNzTK-o69lTo")
-
-@bot.message_handler(commands=["doviz"])
-def start_mesaj(m):
+@bot.message_
     print("saddasads")
     r = requests.get("https://altin.in/fiyat/gram-altin")
 
