@@ -8,7 +8,7 @@ Jinja2==2.11.1
 lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
-mechanize==0.4.5
+mechanize==0.4.6
 multidict==4.7.5
 numpy==1.18.2
 pandas==1.0.3
